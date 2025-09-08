@@ -1,1 +1,1 @@
-This a day one activity github basics using python
+#python Program for github basics

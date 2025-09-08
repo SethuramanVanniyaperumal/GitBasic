@@ -1,0 +1,135 @@
+SDLC - Software Development Life Cycle
+
+Plan -> Requirement Gathering -> Analysis -> Design ->Code ->Testing -> Release -> Monitor
+
+
+Water fall - Sequential and linear & top down approach 
+
+adv - Easy and simple & suitable for projects with stable requirements
+
+Dis - Its risky, uncertain , can't handle dynamic requirements, not suitable for large and complex applications, time consuming 
+
+
+Agile - Break down the application into small cycles
+
+Adv - Dynamic responses , Increased in quality , suits for large and complex projects as well
+
+Dis - Doesn't decrease the gap between development and operations team.
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+DevOps : Dev & Ops
+
+1)Share Goal :
+
+	Dev - Code - changes - Innovate
+	Ops - Stability - Reliability - Quality
+
+2)Automation : Shell scripting , Python
+
+3)Continuous Model :
+
+	Continuous Development - Track the change history (who, when , why) -version control tools
+	eg: Git (GitHub, GitLab , bitbucket) , .svn , cvs , mercurial , baazar
+
+	Continuous Testing - Test as early as often - we can identify as many issues as early as possible
+	eg: Selenium, Tosca, Junit, pytest, cucumber, Hp webinspect
+
+	Continuous Integration : Integrating the code in a desired manner
+ 	Continuous Delivery/Deployment - Delivery = Manually Deployment = Automation
+
+	Eg: Github Actions , Jenkins , GitLab CI , Travis CI , Aws code build & code deploy
+
+	Iac tools : Terraform, Pulumi, Ansible , chef 
+
+	Containerisation : Docker and Kubernetes
+
+	Continuous Monitoring : Prometheus and Grafana , nagios , elk , loki
+
+DevOps : Speed , Rapid Delivery , Reliability , Improved collaboration.
+
+DevSecOps, GitOps, DevNetOps , Mlops , AIOps
+
+
+--------------------------------------------------------------------------------
+
+1)git init - For initializing the repo and making it as a working directory
+
+2)git config --global user.name "user id"
+  git config --global user.email "email id"
+ 
+ to see the list  --git config --global --list
+
+3)git clone <project url>- Getting a repo from remote to local
+
+4)git add . - For moving a file from untracked to staging area 
+  git add <file name> - only specific file will be moved
+
+5)git commit -m "commit msg" - For moving a file from staging area to local repo
+
+6)git push -u origin main - For moving a file from local repo to remote repo(git hub)
+
+7)git status - To see the status of the file
+
+8)git log - To show all the commit history
+
+9)Branches - For creating git branch <branch name>
+
+	     git checkout -b <branch name> - Creates a branch and control goes inside the branch
+
+  for switching b/w the branches - git branch <branch name>
+
+10)git fork - Getting a project from another git hub account to your Git hub account
+
+11)git pull - For getting the latest code changes.
+
+12)git fetch - It just shows you the changes that happened in the remote repo but it wont get the changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
